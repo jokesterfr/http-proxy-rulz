@@ -3,8 +3,13 @@ http-proxy-rulz
 
 ## Description
 
-This use the [node-http-proxy](https://github.com/nodejitsu/node-http-proxy) module, and wrapps a slight API peal over it.
-Lately the *node-http-proxy* 1.0.x version has been released. The proxy rules has been removed from the API, *http-proxy-rulz* intend to fill the lack.
+Lately the [node-http-proxy](https://github.com/nodejitsu/node-http-proxy)
+1.0.x version has been released.
+Since then, the proxy rules feature has been removed from the API,
+that's why comes *http-proxy-rulz*, to fill the lack.
+
+This is only a slight wrapper over *node-http-proxy*, options syntax are
+kept as is. Usage instructions are described below.
 
 ## Usage
 
@@ -12,5 +17,24 @@ Lately the *node-http-proxy* 1.0.x version has been released. The proxy rules ha
 
 ## Licence
 
-This module is provided under the terms of the MIT licence.
-A `LICENCE` file is provided with the sources.
+The MIT License (MIT)
+
+Copyright (c) 2014 Clément Désiles
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
