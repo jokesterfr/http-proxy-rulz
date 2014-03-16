@@ -1,0 +1,5 @@
+{
+	"http://www.mydomain.org": {
+		"target": "https://localhost:8080"
+	}
+}

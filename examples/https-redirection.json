@@ -1,0 +1,11 @@
+{
+	"http://www.mydomain.org": {
+		"forward": "https://www.mydomain.org",
+		"xfwd": true
+	},
+	"https://www.mydomain.org": {
+		"target": "https://localhost:8070",
+		"ws": true,
+		"secure": true
+	}
+}

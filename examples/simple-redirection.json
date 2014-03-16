@@ -1,0 +1,6 @@
+{
+	"http://www.mydomain.org": {
+		"forward": "http://otherdomain.org",
+		"xfwd": true
+	}
+}
