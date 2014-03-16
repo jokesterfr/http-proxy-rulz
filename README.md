@@ -20,8 +20,15 @@ Usage instructions are described below.
 
 ## Usage
 
+Basic usage after getting the sources:
+
 	npm install
-	proxy-server --table examples/https-redirection.json
+	./bin/proxy-server --table examples/simple-proxy.json
+
+You can also retrieve it from the npm registry:
+
+	npm install -g http-proxy-rulz
+	proxy-server --table any-rulz-of-your-own.json
 
 ## Contributing
 
