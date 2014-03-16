@@ -7,7 +7,7 @@
   "preferGlobal": "true",
   "private": "false",
   "bin": {
-    "proxy": "./bin/proxy.js"
+    "proxy": "./bin/proxy-server.js"
   },
   "dependencies": {
     "http-proxy": "latest",
