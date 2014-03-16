@@ -6,8 +6,19 @@
   "license": "MIT",
   "preferGlobal": "true",
   "private": "false",
+  "keywords": [
+    "proxy",
+    "http",
+    "reverse",
+    "rules",
+    "rulz"
+  ],
   "bin": {
     "proxy": "./bin/proxy-server.js"
+  },
+  "repository" : {
+    "type" : "git",
+    "url" : "https://github.com/jokesterfr/http-proxy-rulz.git"    
   },
   "dependencies": {
     "http-proxy": "latest",
