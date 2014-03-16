@@ -10,17 +10,17 @@
 
 var prog   = require('commander')
   , urlib  = require('url')
-  , pkg    = require('./package')
-  , Table  = require('./lib/table')
+  , pkg    = require('../package')
+  , Table  = require('../lib/table')
 
 var DEFAULT_TABLE = process.cwd() + '/proxy-rules.json';
 
 // Add infos to help menu
 prog.on('--help', function () {
-	console.log('	How-to use this proxy\n');
-	console.log('		$ ./bin/proxy-server.js\n');
-	console.log('	or if you installed it globaly\n');
-	console.log('		$ proxy-server\n');
+	console.log('   How-to use this proxy\n');
+	console.log('       $ ./bin/proxy-server.js\n');
+	console.log('   or if you installed it globaly\n');
+	console.log('       $ proxy-server\n');
 });
 
 // Interprete CLI arguments

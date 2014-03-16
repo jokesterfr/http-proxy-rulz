@@ -14,7 +14,7 @@
     "rulz"
   ],
   "bin": {
-    "proxy": "./bin/proxy-server.js"
+    "proxy-server": "./bin/proxy-server.js"
   },
   "repository" : {
     "type" : "git",
