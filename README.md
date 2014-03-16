@@ -20,8 +20,8 @@ Usage instructions are described below.
 
 ## Usage
 
-	npm install http-proxy-rulz -g
-	proxy-server examples/https-redirection.json
+	npm install
+	proxy-server --table examples/https-redirection.json
 
 ## Contributing
 
