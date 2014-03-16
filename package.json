@@ -5,7 +5,6 @@
   "author": "Clément Désiles aka Jokester <main@jokester.fr>",
   "license": "MIT",
   "preferGlobal": "true",
-  "private": "false",
   "keywords": [
     "proxy",
     "http",
