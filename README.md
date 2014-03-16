@@ -1,19 +1,31 @@
 http-proxy-rulz
 ===============
 
+## TLTR
+
+This is a [reverse proxy](http://en.wikipedia.org/wiki/Reverse_proxy), written in [nodejs](http://nodejs.org).
+Proxying rules are stored in a *JSON* file.
+
 ## Description
 
 Lately the [node-http-proxy](https://github.com/nodejitsu/node-http-proxy)
 1.0.x version has been released.
-Since then, the proxy rules feature has been removed from the API,
+Since then, the proxy rulz feature were removed from the API,
 that's why comes *http-proxy-rulz*, to fill the lack.
 
-This is only a slight wrapper over *node-http-proxy*, options syntax are
-kept as is. Usage instructions are described below.
+This is only a slight wrapper over *node-http-proxy*, providing an easy-to-use
+executable proxy file. The JSON file rulz are dynamically updated on file change.
+
+Usage instructions are described below.
 
 ## Usage
 
 	npm install http-proxy-rulz -g
+	proxy-server examples/https-redirection.json
+
+## Contributing
+
+@TODO: grunt stuff
 
 ## Licence
 
