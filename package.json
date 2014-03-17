@@ -1,6 +1,6 @@
 {
   "name": "http-proxy-rulz",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "An HTTP proxy fed by JSON rules",
   "author": "Clément Désiles aka Jokester <main@jokester.fr>",
   "license": "MIT",
